@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+
 li:hover {
   border-bottom: 2px solid black;
+}
+.header-icon {
+  height: 45px;
+  width: 45px;
+}
+.web-name {
+  font-family: "Galada", cursive;
 }

@@ -3,7 +3,7 @@ import React from 'react';
 const Loading = () => {
     return (
         <div className='mt-24 mb-10'>
-            <span className='text-rose-700 bg-black mx-auto px-5 py-2  rounded-md text-xl font-medium my-auto'>Loading....</span>
+            <span className='text-rose-700 bg-gray-300 mx-auto px-5 py-2  rounded-md text-xl font-medium my-auto'>Loading....</span>
         </div>
     );
 };
