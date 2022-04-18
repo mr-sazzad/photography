@@ -1,0 +1,185 @@
+.card-container {
+  height: 520px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.card-container img {
+  height: 65%;
+  width: 96%;
+  margin: 8px 2%;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+
+.card-container h2 {
+  color: rgb(0, 117, 163);
+}
+.card-container button {
+  color: rgb(0, 117, 163);
+}
+.card-container button:hover {
+  background-color: rgb(0, 117, 163);
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 1500px) {
+  .card-container {
+    height: 550px;
+    width: 430px;
+  }
+  .card-container button {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .card-container {
+    height: 550px;
+    width: 400px;
+  }
+  .card-container button {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .card-container {
+    height: 550px;
+    width: 370px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .card-container {
+    height: 550px;
+    width: 350px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-container {
+    height: 550px;
+    width: 340px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .card-container {
+    height: 610px;
+    width: 330px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .card-container {
+    height: 610px;
+    width: 275px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .card-container {
+    height: 610px;
+    width: 270px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .card-container {
+    height: 610px;
+    width: 250px;
+  }
+}
+/* @media screen and (max-width: 860px) {
+      .card-container {
+        height: 610px;
+        width: 265px;
+      }
+      .card-container button {
+        margin-top: 10px;
+      }
+    } */
+@media screen and (max-width: 860px) {
+  .card-container {
+    height: 610px;
+    width: 390px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .card-container {
+    height: 610px;
+    width: 360px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .card-container {
+    height: 610px;
+    width: 320px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .card-container {
+    height: 610px;
+    width: 310px;
+  }
+  .card-container button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .card-container {
+    height: 610px;
+    width: 290px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .card-container {
+    height: 600px;
+    width: 260px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .card-container {
+    height: 600px;
+    width: 250px;
+  }
+  .card-container button {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 501px) {
+  .card-container {
+    height: 600px;
+    width: 220px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-container {
+    height: 480px;
+    width: 400px;
+  }
+}
