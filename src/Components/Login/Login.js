@@ -28,13 +28,13 @@ const Login = () => {
   if (user) {
     navigate(from, { replace: true });
   }
-  if (loading) {
+  if (loading || sending) {
     return <Loading />;
   }
   const navigateToRegister = () => {
     navigate("/register");
   };
-  const handleResetPasscode = async () => {
+  const handleResetPassword = async () => {
     const email = emailRef.current.value;
     await sendPasswordResetEmail(email);
     alert("Sent email");
@@ -75,9 +75,9 @@ const Login = () => {
         </p>
         <p className="transformer">
           forget password?{" "}
-          <Link to="" className="resetPass text-rose-400" onClick={handleResetPasscode}>
+          <button className="resetPass text-rose-400" onClick={handleResetPassword}>
             reset password
-          </Link>
+          </button>
         </p>
       </form>
       <SocialLogin />
